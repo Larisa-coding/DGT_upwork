@@ -53,7 +53,7 @@ async def send_jobs_to_telegram(jobs):
 
 async def main():
     try:
-        await bot.send_message(chat_id=TELEGRAM_CHAT_ID, text="Тестовое сообщение из бота")
+        await bot.send_message(chat_id=TELEGRAM_CHAT_ID, text="Ищу, ищу, но ничего не вижу :(")
     except Exception as e:
         print("Ошибка тестового сообщения:", e)
 
