@@ -9,8 +9,8 @@ TELEGRAM_TOKEN = '7902544546:AAFQiujDRSoVExGpu6_Y56AvFTWpupFd_Fw'  # Ваш то
 TELEGRAM_CHAT_ID = '5036565297'        # Ваш ID чата
 
 RSS_URLS = [
-    'https://www.fl.ru/rss/projects/?category=27',  # Дизайн
-    'https://www.fl.ru/rss/projects/?category=28'   # Сайты
+    'https://www.fl.ru/rss/all.xml?category=3',  # Дизайн
+    'https://www.fl.ru/rss/all.xml?category=2'   # Сайты
 ]
 
 bot = Bot(token=TELEGRAM_TOKEN)
